@@ -30,4 +30,3 @@ dependencies:
   version: "0.1.0"
   repository: "file://../common/jupyter"
   condition: jupyter.enabled
-  condition: jupyter.enabled2
