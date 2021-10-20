@@ -1,4 +1,4 @@
-# Default values for ruan.
+# Default values for jupyter.
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
@@ -9,12 +9,6 @@ image:
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: ""
-
-jupyter:
-  enabled: false
-  image:
-    repository: jupyter/scipy-notebook
-
 
 imagePullSecrets: []
 nameOverride: ""

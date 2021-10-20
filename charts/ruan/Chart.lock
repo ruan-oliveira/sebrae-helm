@@ -1,0 +1,6 @@
+dependencies:
+- name: jupyter
+  repository: file://../common/jupyter
+  version: 0.1.0
+digest: sha256:1c53cc22dffab402d3bf72973bcb88253a3633673e6b10620205da6ba709537b
+generated: "2021-10-20T11:16:05.446008-03:00"
