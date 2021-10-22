@@ -1,0 +1,18 @@
+categories:
+- Application
+questions:
+- variable: image.repository
+  default: "jupyter/scipy-notebook"
+  description: "Informe a imagem"
+  type: enum
+  options: 
+    - jupyter/scipy-notebook
+    - jupyter/datascience-notebook
+    - jupyter/pyspark-notebook
+    - jupyter/minimal-notebook
+    - jupyter/all-spark-notebook
+    - jupyter/tensorflow-notebook
+    - jupyter/base-notebook
+  required: true
+  label: Informe o que deseja subir
+  group: "Imagem"
